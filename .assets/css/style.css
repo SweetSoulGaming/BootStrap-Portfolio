@@ -1,0 +1,92 @@
+.navBar {
+ margin: 20px;
+ background-color: #fff;
+}
+
+.navBar-brand  {
+    background-image: url(file:///C:/Users/panze/portkey/BootStrap-Portfolio/C:\Users\panze\portkey\BootStrap-Portfolio\images\Images\rhino.jpg);
+    background-size: contain;
+    image-rendering: crisp-edges;
+    image-resolution: revert;
+
+}
+.jumbotron img {
+    background-image:url(file:///C:/Users/panze/portkey/BootStrap-Portfolio/C:\Users\panze\portkey\BootStrap-Portfolio\images\Images\logo.jpg);
+    background-size: contain;
+    image-rendering: pixelated;
+    margin-left: 700px;
+    padding-top: 30px;
+   border: 1px solid black
+}
+.container {
+ padding: 20px;
+ margin-right: 20px;
+}
+
+
+h2 {
+    text-align: center;
+}
+
+section {
+    display: inline;
+}
+
+section div{
+    border: 1px solid black;
+   padding: none;
+    background-color: grey;
+}
+
+section .card {
+    display: inline;
+   margin: 100px;
+   
+   
+}
+
+section .card-body {
+  
+   padding: 70px;
+  justify-content: space-between;
+  margin-top: 100px;
+  background-color: green;
+}
+
+section .card-CSS {
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+     padding: 70px;
+    justify-content: space-between;
+    margin: 100px;
+    background-color: crimson;
+}
+
+section .card-Java {
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+     padding: 70px;
+    justify-content: space-between;
+    margin: 100px;
+    background-color: rgb(59, 59, 161);
+}
+
+h3 {
+    text-align:center;
+}
+
+footer {
+    display: inline;
+}
+
+footer div {
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+     padding: 70px;
+    justify-content: space-between;
+    margin: 100px;
+}
+
