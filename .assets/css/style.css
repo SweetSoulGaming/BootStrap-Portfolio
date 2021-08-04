@@ -1,28 +1,37 @@
-.navBar {
- margin: 20px;
- background-color: #fff;
+.navbar  {
+    border-color: rgba(34, 34, 34, 0.05);
+    background-color: blue;
+    transition: all .35s;
+    font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+    font-weight: 200;
+    letter-spacing: 1px;
 }
 
 .navBar-brand  {
-    background-image: url(file:///C:/Users/panze/portkey/BootStrap-Portfolio/C:\Users\panze\portkey\BootStrap-Portfolio\images\Images\rhino.jpg);
-    background-size: contain;
-    image-rendering: crisp-edges;
+    
+    
+    height: 20px;
+    width: 25px;
     image-resolution: revert;
-
+  color:black;
 }
 .jumbotron img {
-    background-image:url(file:///C:/Users/panze/portkey/BootStrap-Portfolio/C:\Users\panze\portkey\BootStrap-Portfolio\images\Images\logo.jpg);
-    background-size: contain;
-    image-rendering: pixelated;
-    margin-left: 700px;
-    padding-top: 30px;
-   border: 1px solid black
+    background-image:url(file:///C:/Users/panze/portkey/BootStrap-Portfolio/images/Images/logo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-position-x: center;
+    display: block;
+    
+    height: 600px;
+    width: 50%;
+    
+    margin-bottom: 25px;
+    border: 1px solid black
 }
-.container {
- padding: 20px;
- margin-right: 20px;
+button {
+    color:black;
 }
-
 
 h2 {
     text-align: center;
@@ -32,51 +41,81 @@ section {
     display: inline;
 }
 
-section div{
-    border: 1px solid black;
-   padding: none;
-    background-color: grey;
+
+header .container-fluid {
+    border-style: solid;
+    border-width: 5px;
+   padding: 70px;
+  justify-content: space-between;
+  margin-top: 100px;
+  background-color: rgb(127, 127, 245);
+  grid-template-rows: 75% 25%;
+  grid-template-columns: 25% 75%;
+  grid-template-areas: 
+  "card-body card-body card-body"
 }
 
-section .card {
+header div{
+    border-style:solid;
+    border-width: 5px;
+    
+}
+header .card {
     display: inline;
    margin: 100px;
    
    
 }
 
-section .card-body {
-  
+header .card-body {
+  border-style: solid;
+    border-width: 5px;
    padding: 70px;
   justify-content: space-between;
   margin-top: 100px;
-  background-color: green;
+  background-color: rgb(127, 127, 245);
+  grid-template-rows: 75% 25%;
+  grid-template-columns: 25% 75%;
+  grid-template-areas: 
+  "card-body card-body card-body"
+  ;
 }
 
-section .card-CSS {
-    border-style: solid;
-    border-width: 5px;
-    border-color: black;
-     padding: 70px;
-    justify-content: space-between;
-    margin: 100px;
-    background-color: crimson;
-}
 
-section .card-Java {
-    border-style: solid;
-    border-width: 5px;
-    border-color: black;
-     padding: 70px;
-    justify-content: space-between;
-    margin: 100px;
-    background-color: rgb(59, 59, 161);
-}
 
 h3 {
     text-align:center;
 }
 
+section .container-fluid {
+   
+  
+    
+}
+section .card-body{
+    padding: 40px;
+    
+}
+section .card {
+    border-style: solid;
+    border-color: black;
+    border-width: 5px; 
+    padding: 300px;
+    
+    margin: 100px;
+    display: inline-flex;
+}
+section div{
+  
+   padding: 40px;
+    background-color: grey;
+}
+
+::placeholder{
+    color:black;
+    font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
+    font-weight: 200;
+}
 footer {
     display: inline;
 }
