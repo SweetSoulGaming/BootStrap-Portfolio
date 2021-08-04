@@ -2,22 +2,25 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+ 
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Mike's BootStrap-Profile</title>
   
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   
   <link rel ="stylesheet" href= ".assets/css/style.css" media="screen">
-
+  
+  <script src="https://kit.fontawesome.com/d0c229b32a.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
   <!-- Navgation bar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-    <a class="navbar-brand" href="#"><img src="C:\Users\panze\portkey\BootStrap-Portfolio\images\Images\rhino.jpg"></a>
+    <a class="navbar-brand" href="#"><i class="fab fa-galactic-senate"></i></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
+        </span>
     </button>
   
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -29,21 +32,19 @@
           <a class="nav-link" href="#">Link</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown link
           </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <a class="dropdown-item" href="#">Action</a>
             <a class="dropdown-item" href="#">Another action</a>
-            <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#">Something else here</a>
           </div>
         </li>
-        <li class="nav-item">
-          <a class="nav-link enabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
+       </ul>
+      
       <!-- Search bar  -->
+      <nav class="navbar navbar-light bg-light justify-content-between">
       <form class="form-inline my-2 my-lg-0">
         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
@@ -52,58 +53,85 @@
   </nav>
   <!-- Jumbotron/Hero Section -->
   <div class="jumbotron jumbotron-fluid">
-    <img src="C:\Users\panze\portkey\BootStrap-Portfolio\images\Images\logo.jpg" alt= "logo.jpg"/>
+     <img src="C:\Users\panze\portkey\BootStrap-Portfolio\images\Images\logo.jpg" alt= "logo.jpg"/> 
     <div class="container">
       <h1 class="display-4">Welcome to my Profile!</h1>
       <p class="lead">Hi, My name is Mike Thomas and I'm a Content Creator</p>
     </div>
-<div>
+<div class="container">
    <h2>Skills Section</h2>
  </div>
-  <section>
-   <!-- Skills Section HtML -->
-    <div> 
-    <div class="card" style="width: 18rem;">
-      <div class="card-body">
-        <h5 class="card-title">HTML</h5>
-        <h6 class="card-subtitle mb-2 text-muted">HTML Skillset</h6>
-        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <a href="#" class="card-link">Content</a>
-        <a href="#" class="card-link">More</a>
+ <header>
+    
+  <div class="container-fluid">
+    
+    <div class="row">
+      <div class="col-sm-4">
+        <h3>Html Skillset</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
       </div>
-   </div>
+      
+      
+      <div class="col-sm-4">
+        <h3>CSS Skillset</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      </div>
+      
+      <div class="col-sm-4">
+        <h3>Boot/Javascript Skillset</h3>        
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      </div>
+    
+</header>
+
+<section>
+  <h3>Work Section</h3>
+  <div class="container-fluid row-cols-1">
+  <div class="row row-cols-1 row-cols-md-2">
+    <div class="col mb-4">
+      <div class="card">
+        <input placeholder="My Work">
+        <div class="card-body">
+          <h5 class="card-title">Gorillaz Fanpage</h5>
+          <p class="card-text">Ever sense I was young, I was fancisnated by animation and carttons, so the day i discovered Clint Eastwood from the Gorillaz, I became obsessed with the band and their music. Always curious to know who were the humans behind the animated band. I was listening to one of the radios on Spotify and found out the entire truth behind the British band.</p>
+        </div>
+      </div>
+    </div>
   
-  </div>                           
-   <!-- CSS Section -->
-  <div>
-     <div class="card" style="width: 18rem;">
-      <div class="card-CSS">
-        <h5 class="card-title">CSS</h5>
-        <h6 class="card-subtitle mb-2 text-muted">CSS Skillset</h6>
-        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <a href="#" class="card-link">Content</a>
-        <a href="#" class="card-link">More</a>
+  </div>
+  <div class="container-fluid row-cols-md-2">  
+    <div class="col mb-4">
+      <div class="card">
+        <input placeholder="My Work">
+        <div class="card-body">
+          <h5 class="card-title">BootStrap-Portfolio</h5>
+          <p class="card-text">Whats going to feel like a never ending project of mine. I say this because being a develo[per/content creator you will definitely want to figure out ways to make the Portfolio better and appealing to recruiters and tech companies.Its also a oppurtunity to showcase your skills and try out new codes.</p>
+        </div>
       </div>
     </div>
-   
-  </div>
-   
-  <div>
-   <div class="card" style="width: 18rem;">
-      <div class="card-Java">
-        <h5 class="card-title">JavaScript</h5>
-        <h6 class="card-subtitle mb-2 text-muted">JS Skillset</h6>
-        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <a href="#" class="card-link">Content</a>
-        <a href="#" class="card-link">More</a>
+    </div> 
+    <div class="container">
+    <div class="col mb-4">
+      <div class="card">
+        <input placeholder="My Work">
+        <div class="card-body">
+          <h5 class="card-title">Html Portfolio</h5>
+          <p class="card-text">Always nice to learn to build frameworks and new ways to basic webpages.</p>
+        </div>
       </div>
     </div>
+    
+    
   </div>
-   
-</section>
+ </section>
+
+
 
 <footer>
-  <div>
+  <div class="container">
   
     <div class="card">
     <div class="card-header">
@@ -118,6 +146,15 @@
   </div>
  
 
+ 
+
+
+
+  
+ 
+ 
+
+   
 
 
 
