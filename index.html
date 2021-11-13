@@ -14,44 +14,365 @@
   <script src="https://kit.fontawesome.com/d0c229b32a.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#navbarResponsive">
   <!-- Navgation bar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-    <a class="navbar-brand" href="#"><i class="fab fa-galactic-senate"></i></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <div id="home">
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <button class="navbar-toggler" type="button" data-toggle="collapse"
+     data-target="#navbarResponsive">
       <span class="navbar-toggler-icon"></span>
-        </span>
     </button>
   
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav mx-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#home">Home</a> 
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="#service">Service</a>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown link
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
         </li>
-       </ul>
+      </ul>
       
-      <!-- Search bar  -->
-      <nav class="navbar navbar-light bg-light justify-content-between">
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form> 
     </div>
   </nav>
+  <div class="background">
+    <img src= "images\Images\back2.jpg" alt= "back1.jpg" class="img-fluid">
+  </div>
+  <div class ="heading-content text-center">
+    <h5>Hello , I'm</h5>
+    <h1>Mike Thomas</h1>
+    <p>WELCOME TO THE SWEETSOUL STANDARD</p>
+  </div>  
+    
+  </div>
+   
+  <div id= "about" class="offset container-fluid mt-3 pb-5">
+  <div class="post-heading text-center">
+    <h3 class ="display-4 font-weight-bold">About Me</h3>
+    <hr class="w-50 mx-auto pb-5">
+  </div>
+  <div class="row">
+ <div class="col-lg-6 col-md-6 col-12">
+   <img src="images\Images\card1.jpg" class="img-fluid">
+ </div>
+
+ <div class="col-lg-6 col-md-6 col-12">
+   <h2>Whats the standard?</h2>
+   <hr>
+ <p>The Standard of bringing the best service provided by our audience. Myself am a freelance coder, looking for work and experience. Excited to explore the field of coding, and learn more about coding. Recently earned the Front End Engineer Certificate at University of California Riverside Extention in October 2021. During the 18-week fullstack course, we have experience with the basic languages of coding(HTML/CSS, Javascript) and the backend (Nodes and REACT). Used Github and Gitbash to deploy projects and assignments.  </p>
+
+   <button class ="btn w-50">
+     <a href="#">More About Me</a>
+   </button>
+ </div>
+  </div>
+
+  </div>  
+          
+
+  <div id= "service" class="container mt-3 pb-5">
+    <div class="post-heading text-center">
+      <h3 class ="display-4 font-weight-bold">Service</h3>
+      <hr class="w-50 mx-auto pb-5">
+    </div>
+    <div class="row">
+      <div class= "col-lg-4 col-md-6 col-12 pb-5">
+        <div class="card">
+          <img src="images\Images\IMG_2810.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">SweetSoulGaming</h5>
+            <p class="card-text">My video game and streaming content, We post on Instagram and other social media platforms.</p>
+            <a href="#" class="btn btn-dark"> Instagram</a>
+          </div>
+        </div>
+      </div>
+      <div class= "col-lg-4 col-md-6 col-12 pb-5">
+        <div class="card">
+          <img src="https://www.macobserver.com/wp-content/uploads/2019/05/workfeatured-GitHub-2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Github</h5>
+            <p class="card-text">All of my lastest repositories and projects that are complete or being modified.</p>
+            <a href="#" class="btn btn-dark"> Github</a>
+          </div>
+        </div>
+      </div>
+      <div class= "col-lg-4 col-md-6 col-12 pb-5">
+        <div class="card">
+          <img src="images\podcast.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p class="card-text">When the Bay Area and KCMO connect situation and conversation gets wild. My podcast, I started with some friends I met on Xbox Live. We all come from different, but similar backgrounds. One of our main themes is relationships and how to maintain them. We talk about mostly anything on our live shows, like relationship scenerios, tv shows we watch and live guests are our panels. We push on talking about mental health and our past trauma of anixety episodes and days when we don't fell like ourselves. It's a brotherhood and the one thing we all share a bond with is gaming.</p>
+            <a href="#" class="btn btn-dark"> Podcast</a>
+          </div>
+        </div>
+      </div>
+      <div class= "col-lg-4 col-md-6 col-12 pb-5">
+        <div class="card">
+          <img src="" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Business Website</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-dark"> Instagram</a>
+          </div>
+        </div>
+      </div>
+      <div class= "col-lg-4 col-md-6 col-12 pb-5">
+        <div class="card">
+          <img src="" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Business Website</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-dark"> Instagram</a>
+          </div>
+        </div>
+      </div>
+      <div class= "col-lg-4 col-md-6 col-12 pb-5">
+        <div class="card">
+          <img src="" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Business Website</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-dark"> Instagram</a>
+          </div>
+        </div>
+      </div>
+      <button class ="button w-50 mx-auto mb-5">
+        <a href="#">Like to Know More</a>
+      </button>
+    </div>
+    
+  </div>
+  
+  <section class="sec1 container-fluid mt-5 pb-5">
+    <h2 class="mt-5">Newsletter </h2>
+    <p>Subscribe to our newsletter to recieve our latest news.</p>
+   <form class="form-inline mt-2" action="/action_page.php">
+   <input type="email" class="form-control" placeholder="Enter Email" id="email">
+  <button type="submit" class="btn btn-dark ml-2"> Subscribe</button>
+</form>
+  
+  </section>
+
+  <div id= "contact" class="offset w-50 mx-auto mt-3 pb-5">
+    <div class="post-heading text-center">
+      <h3 class ="display-4 font-weight-bold">Contact Us</h3>
+      <hr class="w-50 mx-auto pb-5">
+    </div>
+    <form action="/action_page.php">
+      <div class="form-group">
+        <label for="email">Full Name:</label>
+        <input type="text" class="form-control" placeholder="Enter email" id="email">
+      </div>
+      <div class="form-group">
+        <label for="email">Email address:</label>
+        <input type="email" class="form-control" placeholder="Enter email" id="email">
+      </div>
+      <div class="form-group">
+        <label for="email">Your Message:</label>
+        <textarea class="form-control"></textarea>
+      </div>
+         
+      <button type="submit" class="btn btn-dark">Send</button>
+    </form>
+  </div>
+      
+  <!-- Footer -->
+   <div class="container-fluid">
+  <footer class="bg-dark text-center text-white">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
+      <!-- Google -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+
+      <!-- Github -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+        ><i class="fab fa-github"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Form -->
+    <section class="">
+      <form action="">
+        <!--Grid row-->
+        <div class="row d-flex justify-content-center">
+          <!--Grid column-->
+          <div class="col-auto">
+            <p class="pt-2">
+              <strong>Sign up for our newsletter</strong>
+            </p>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-md-5 col-12">
+            <!-- Email input -->
+            <div class="form-outline form-white mb-4">
+              <input type="email" id="form5Example21" class="form-control" />
+              <label class="form-label" for="form5Example21">Email address</label>
+            </div>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-auto">
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-outline-light mb-4">
+              Subscribe
+            </button>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </form>
+    </section>
+    <!-- Section: Form -->
+
+    <!-- Section: Text -->
+    <section class="mb-4">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
+        repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
+        eum harum corrupti dicta, aliquam sequi voluptate quas.
+      </p>
+    </section>
+    <!-- Section: Text -->
+
+    <!-- Section: Links -->
+    <section class="">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Links</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">Link 1</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 2</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 3</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 4</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Links</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">Link 1</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 2</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 3</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 4</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Links</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">Link 1</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 2</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 3</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 4</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Links</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-white">Link 1</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 2</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 3</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Link 4</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </section>
+    <!-- Section: Links -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2020 Copyright:
+    <a class="text-white" href="https://mdbootstrap.com/">Mike Thomas</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+</div>
+  
   <!-- Jumbotron/Hero Section -->
+  <div>
   <div class="jumbotron jumbotron-fluid">
      <img src="C:\Users\panze\portkey\BootStrap-Portfolio\images\Images\logo.jpg" alt= "logo.jpg"/> 
     <div class="container">
@@ -61,6 +382,7 @@
 <div class="container">
    <h2>Skills Section</h2>
  </div>
+</div>
  <header>
     
   <div class="container-fluid">
@@ -160,6 +482,9 @@
 
 
 </footer>
-
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    
 </body>
 </html>
