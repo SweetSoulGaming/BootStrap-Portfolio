@@ -1,131 +1,177 @@
-.navbar  {
-    border-color: rgba(34, 34, 34, 0.05);
-    background-color: blue;
-    transition: all .35s;
-    font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
-    font-weight: 200;
-    letter-spacing: 1px;
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:ital@1&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+
 }
 
-.navBar-brand  {
-    
-    
-    height: 20px;
-    width: 25px;
-    image-resolution: revert;
-  color:black;
-}
-.jumbotron img {
-    background-image:url(file:///C:/Users/panze/portkey/BootStrap-Portfolio/images/Images/logo.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: black;
-    background-position-x: center;
+.offset::before {
     display: block;
-    
-    height: 600px;
-    width: 50%;
-    
-    margin-bottom: 25px;
-    border: 1px solid black
-}
-button {
-    color:black;
+    content:"";
+    height: 6rem;
 }
 
-h2 {
-    text-align: center;
+.navbar {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    background: rgba(0,0,0,0.6)!important;
+    padding: 20px 0;
 }
 
-section {
-    display: inline;
+.navbar-dark .navbar-nav .nav-link {
+color: #fff;
+padding-left: 20px;
 }
 
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #1ebba3;
+} 
 
-header .container-fluid {
-    border-style: solid;
-    border-width: 5px;
-   padding: 70px;
-  justify-content: space-between;
-  margin-top: 100px;
-  background-color: rgb(127, 127, 245);
-  grid-template-rows: 75% 25%;
-  grid-template-columns: 25% 75%;
-  grid-template-areas: 
-  "card-body card-body card-body"
+.heading-content {
+   position: absolute;
+   top:50%;
+   width:100%;
+   max-width: 100%; 
+} 
+
+.heading-content h5 {
+    font-size: 4em;
+    font-weight: 300;
+    color: #fff;
+    font-family: monospace;
 }
 
-header div{
-    border-style:solid;
-    border-width: 5px;
-    
-}
-header .card {
-    display: inline;
-   margin: 100px;
-   
-   
+.heading-content h1 {
+    font-size: 5em;
+    font-weight: bolder;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
 }
 
-header .card-body {
-  border-style: solid;
-    border-width: 5px;
-   padding: 70px;
-  justify-content: space-between;
-  margin-top: 100px;
-  background-color: rgb(127, 127, 245);
-  grid-template-rows: 75% 25%;
-  grid-template-columns: 25% 75%;
-  grid-template-areas: 
-  "card-body card-body card-body"
-  ;
+.heading-content p {
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: #ccc;
+    word-spacing: 5px; 
+    letter-spacing: 2px;
 }
 
+#about .btn {
+    border:2px solid transparent;
+    width: 40%;
+    padding: 15px 22px;
+    background: #000;
+    border-radius: 5px;
+    margin-top: 10px;
+}
 
+#about .btn a {
+ color: #fff;
+ text-decoration: none;
+ font-size: 1em;
+ font-weight: bold;
+ text-transform: uppercase;
+}
 
-h3 {
+#about .btn:hover {
+    border:2px solid #1ebba3;
+    cursor:pointer;
+
+}
+
+ #service .button {
+    border:2px solid transparent;
+    width: 40%;
+    padding: 15px 22px;
+    background: #000;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+#service .button a {
+ color: #fff;
+ text-decoration: none;
+ font-size: 1em;
+ font-weight: bold;
+ text-transform: uppercase;
+}
+
+#service .button:hover {
+    border:2px solid #1ebba3;
+    cursor:pointer;
+
+}
+ 
+
+.sec1 {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
     text-align:center;
+    background: #f8fafb;
+
 }
 
-section .container-fluid {
-   
+.sec1 h2 {
+    font-family: 'Poppins', san-serif;
+    font-weight: 400;
+
+
+}
+
+@media screen and (max-width:767px) {
+    /*tablets-----------*/
+    .navbar {
+      letter-spacing: 0.1rem;
+      padding: 10px 0;
+    }
+    .heading-content h5 {
+        font-size: 3em;
+        
+    }
+    
+    .heading-content h1 {
+        font-size: 3em;
+        
+    }
+    
+    .heading-content p {
+        font-size: 0.9em;
+        
+    }
+
+}
+
+@media screen and (max-width: 479px) {
+    /*---------smartphones------*/
+    .navbar {
+        letter-spacing: 0.1rem;
+        padding: 7px 0;
+      }
+      .heading-content h5 {
+          font-size: 2em;
+          
+      }
+      
+      .heading-content h1 {
+          font-size: 2em;
+          
+      }
+      
+      .heading-content p {
+          font-size: 0.7em;
+          
+      }
   
-    
-}
-section .card-body{
-    padding: 40px;
-    
-}
-section .card {
-    border-style: solid;
-    border-color: black;
-    border-width: 5px; 
-    padding: 300px;
-    
-    margin: 100px;
-    display: inline-flex;
-}
-section div{
-  
-   padding: 40px;
-    background-color: grey;
-}
-
-::placeholder{
-    color:black;
-    font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
-    font-weight: 200;
-}
-footer {
-    display: inline;
-}
-
-footer div {
-    border-style: solid;
-    border-width: 5px;
-    border-color: black;
-     padding: 70px;
-    justify-content: space-between;
-    margin: 100px;
-}
-
+      #contact .post-heading h3 {
+        font-size:2em;
+      }
+  }
